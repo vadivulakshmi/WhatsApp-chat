@@ -1,0 +1,20 @@
+
+.contact-item { 
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px; 
+  cursor: pointer; 
+}
+
+.profile-icon {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.contact-details {
+  flex-grow: 1; 
+}
+
+
+

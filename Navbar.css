@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #128C7E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* margin-left: 10px; */
+  }
+  
+  .menu {
+    background-color: #128C7E; 
+  }
+  
+  .menu-item {
+      margin: 0 10px;
+  }
+  
+  .menu-item > a {
+    color: white;
+    margin-right: 10px;
+  }
+
+  .menu-item > a:hover {
+    color: #eee;
+  }
+
+.ant-tooltip-inner {
+    border: none !important;
+    /* background-color: transparent  */
+    padding: 0 !important;
+    border-radius: 6px;
+    /* box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 
+    0 9px 28px 8px rgba(0, 0, 0, 0.05); */
+    box-sizing: border-box;  }
+  
+  .ant-tooltip-content {
+    color: white; 
+    padding: 8px 12px; 
+    border-radius: 4px; 
+  }
+  .search-input{
+    padding: auto;
+    color: white;
+  }

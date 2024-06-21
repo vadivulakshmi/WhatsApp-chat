@@ -1,0 +1,22 @@
+
+.app-content {
+  display: flex;
+  flex-direction: column;
+  height: 80vh; 
+}
+
+.grid-container {
+  flex: 1; 
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+
+.contact-list {
+  height: 100%; 
+  overflow-y: auto;
+}
+
+.chat-window {
+  height: 100%;
+  overflow-y: auto;
+}
